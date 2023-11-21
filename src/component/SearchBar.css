@@ -1,0 +1,38 @@
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-right: 10px;
+    
+    
+    
+}
+
+.search-input {
+    display: flex;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.custom-button {
+    padding: 10px;
+    border: 2px solid #fcfbfb;
+    border-radius: 5px;
+    color: #080808;
+    cursor: pointer;
+    margin-left: -20px;
+    
+    
+}
+
+@media ( max-width: 994px){
+    .search-bar-container{
+        width: auto;
+
+    }
+        
+}
